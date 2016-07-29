@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3CA14F19298B0716F8E495 /* libPods-MacTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D80C7AB19B8D612FEBDC1 /* libPods-MacTest.a */; };
+		423E537D1D4B40E400019E7D /* LindarReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 423E537C1D4B40E400019E7D /* LindarReader.mm */; };
+		42BF42221D4AEC9E0025CFE8 /* SlamDev.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42211D4AEC9E0025CFE8 /* SlamDev.mm */; };
+		42BF422B1D4AEDD20025CFE8 /* Dstar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42281D4AEDD20025CFE8 /* Dstar.cpp */; };
+		42BF422C1D4AEDD20025CFE8 /* dstarMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF422A1D4AEDD20025CFE8 /* dstarMain.cpp */; };
+		42BF42311D4AEDE80025CFE8 /* MapSearchNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF422D1D4AEDE80025CFE8 /* MapSearchNode.cpp */; };
+		42BF423F1D4AEDFD0025CFE8 /* algorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42321D4AEDFD0025CFE8 /* algorithms.cpp */; };
+		42BF42401D4AEDFD0025CFE8 /* Laser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42341D4AEDFD0025CFE8 /* Laser.cpp */; };
+		42BF42411D4AEDFD0025CFE8 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42371D4AEDFD0025CFE8 /* Map.cpp */; };
+		42BF42421D4AEDFD0025CFE8 /* Scan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF423A1D4AEDFD0025CFE8 /* Scan.cpp */; };
+		42BF42431D4AEDFD0025CFE8 /* WheeledRobot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF423D1D4AEDFD0025CFE8 /* WheeledRobot.cpp */; };
+		42BF424C1D4AEE100025CFE8 /* coreslam_i686.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42441D4AEE100025CFE8 /* coreslam_i686.c */; };
+		42BF424D1D4AEE100025CFE8 /* coreslam.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42461D4AEE100025CFE8 /* coreslam.c */; };
+		42BF424E1D4AEE100025CFE8 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42481D4AEE100025CFE8 /* random.c */; };
+		42BF424F1D4AEE100025CFE8 /* ziggurat.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BF424A1D4AEE100025CFE8 /* ziggurat.c */; };
+		42BF42581D4AEE260025CFE8 /* urgtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42501D4AEE260025CFE8 /* urgtest.cpp */; };
+		42BF42591D4AEE260025CFE8 /* URG04LX2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42511D4AEE260025CFE8 /* URG04LX2.cpp */; };
+		42BF425A1D4AEE260025CFE8 /* hokuyo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42531D4AEE260025CFE8 /* hokuyo.cpp */; };
+		42BF425B1D4AEE260025CFE8 /* serial_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BF42561D4AEE260025CFE8 /* serial_device.cpp */; };
 		E3EE796C1D4A456400A8A93F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EE796B1D4A456400A8A93F /* AppDelegate.m */; };
 		E3EE796F1D4A456400A8A93F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EE796E1D4A456400A8A93F /* main.m */; };
 		E3EE79721D4A456400A8A93F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EE79711D4A456400A8A93F /* ViewController.m */; };
@@ -26,6 +45,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24036AB31D31AB604E01023A /* Pods-MacTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacTest/Pods-MacTest.release.xcconfig"; sourceTree = "<group>"; };
+		423E537B1D4B40E400019E7D /* LindarReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LindarReader.h; sourceTree = "<group>"; };
+		423E537C1D4B40E400019E7D /* LindarReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LindarReader.mm; sourceTree = "<group>"; };
+		42BF42201D4AEC9E0025CFE8 /* SlamDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlamDev.h; sourceTree = "<group>"; };
+		42BF42211D4AEC9E0025CFE8 /* SlamDev.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SlamDev.mm; sourceTree = "<group>"; };
+		42BF42281D4AEDD20025CFE8 /* Dstar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dstar.cpp; sourceTree = "<group>"; };
+		42BF42291D4AEDD20025CFE8 /* Dstar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dstar.h; sourceTree = "<group>"; };
+		42BF422A1D4AEDD20025CFE8 /* dstarMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dstarMain.cpp; sourceTree = "<group>"; };
+		42BF422D1D4AEDE80025CFE8 /* MapSearchNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapSearchNode.cpp; sourceTree = "<group>"; };
+		42BF422E1D4AEDE80025CFE8 /* MapSearchNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MapSearchNode.hpp; sourceTree = "<group>"; };
+		42BF422F1D4AEDE80025CFE8 /* stlastar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stlastar.h; sourceTree = "<group>"; };
+		42BF42301D4AEDE80025CFE8 /* fsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fsa.h; sourceTree = "<group>"; };
+		42BF42321D4AEDFD0025CFE8 /* algorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithms.cpp; sourceTree = "<group>"; };
+		42BF42331D4AEDFD0025CFE8 /* algorithms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = algorithms.hpp; sourceTree = "<group>"; };
+		42BF42341D4AEDFD0025CFE8 /* Laser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Laser.cpp; sourceTree = "<group>"; };
+		42BF42351D4AEDFD0025CFE8 /* Laser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Laser.hpp; sourceTree = "<group>"; };
+		42BF42361D4AEDFD0025CFE8 /* BreezySLAM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BreezySLAM.hpp; sourceTree = "<group>"; };
+		42BF42371D4AEDFD0025CFE8 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		42BF42381D4AEDFD0025CFE8 /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		42BF42391D4AEDFD0025CFE8 /* Position.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Position.hpp; sourceTree = "<group>"; };
+		42BF423A1D4AEDFD0025CFE8 /* Scan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scan.cpp; sourceTree = "<group>"; };
+		42BF423B1D4AEDFD0025CFE8 /* Scan.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Scan.hpp; sourceTree = "<group>"; };
+		42BF423C1D4AEDFD0025CFE8 /* Velocities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Velocities.hpp; sourceTree = "<group>"; };
+		42BF423D1D4AEDFD0025CFE8 /* WheeledRobot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WheeledRobot.cpp; sourceTree = "<group>"; };
+		42BF423E1D4AEDFD0025CFE8 /* WheeledRobot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WheeledRobot.hpp; sourceTree = "<group>"; };
+		42BF42441D4AEE100025CFE8 /* coreslam_i686.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coreslam_i686.c; sourceTree = "<group>"; };
+		42BF42451D4AEE100025CFE8 /* coreslam_internals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreslam_internals.h; sourceTree = "<group>"; };
+		42BF42461D4AEE100025CFE8 /* coreslam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coreslam.c; sourceTree = "<group>"; };
+		42BF42471D4AEE100025CFE8 /* coreslam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreslam.h; sourceTree = "<group>"; };
+		42BF42481D4AEE100025CFE8 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random.c; sourceTree = "<group>"; };
+		42BF42491D4AEE100025CFE8 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		42BF424A1D4AEE100025CFE8 /* ziggurat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ziggurat.c; sourceTree = "<group>"; };
+		42BF424B1D4AEE100025CFE8 /* ziggurat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ziggurat.h; sourceTree = "<group>"; };
+		42BF42501D4AEE260025CFE8 /* urgtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = urgtest.cpp; sourceTree = "<group>"; };
+		42BF42511D4AEE260025CFE8 /* URG04LX2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = URG04LX2.cpp; sourceTree = "<group>"; };
+		42BF42521D4AEE260025CFE8 /* URG04LX2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = URG04LX2.hpp; sourceTree = "<group>"; };
+		42BF42531D4AEE260025CFE8 /* hokuyo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hokuyo.cpp; sourceTree = "<group>"; };
+		42BF42541D4AEE260025CFE8 /* hokuyo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hokuyo.hpp; sourceTree = "<group>"; };
+		42BF42551D4AEE260025CFE8 /* message_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = message_utils.hpp; sourceTree = "<group>"; };
+		42BF42561D4AEE260025CFE8 /* serial_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serial_device.cpp; sourceTree = "<group>"; };
+		42BF42571D4AEE260025CFE8 /* serial_device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = serial_device.hpp; sourceTree = "<group>"; };
+		732D80C7AB19B8D612FEBDC1 /* libPods-MacTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1834E3C6DEC3AD05EC7F7FF /* Pods-MacTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacTest/Pods-MacTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E3EE79671D4A456400A8A93F /* MacTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE796A1D4A456400A8A93F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3EE796B1D4A456400A8A93F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3CA14F19298B0716F8E495 /* libPods-MacTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +121,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42BF42231D4AED600025CFE8 /* DStarPathFinding */ = {
+			isa = PBXGroup;
+			children = (
+				42BF42281D4AEDD20025CFE8 /* Dstar.cpp */,
+				42BF42291D4AEDD20025CFE8 /* Dstar.h */,
+				42BF422A1D4AEDD20025CFE8 /* dstarMain.cpp */,
+			);
+			name = DStarPathFinding;
+			sourceTree = "<group>";
+		};
+		42BF42241D4AED730025CFE8 /* BreezySlam */ = {
+			isa = PBXGroup;
+			children = (
+				42BF42321D4AEDFD0025CFE8 /* algorithms.cpp */,
+				42BF42331D4AEDFD0025CFE8 /* algorithms.hpp */,
+				42BF42341D4AEDFD0025CFE8 /* Laser.cpp */,
+				42BF42351D4AEDFD0025CFE8 /* Laser.hpp */,
+				42BF42361D4AEDFD0025CFE8 /* BreezySLAM.hpp */,
+				42BF42371D4AEDFD0025CFE8 /* Map.cpp */,
+				42BF42381D4AEDFD0025CFE8 /* Map.hpp */,
+				42BF42391D4AEDFD0025CFE8 /* Position.hpp */,
+				42BF423A1D4AEDFD0025CFE8 /* Scan.cpp */,
+				42BF423B1D4AEDFD0025CFE8 /* Scan.hpp */,
+				42BF423C1D4AEDFD0025CFE8 /* Velocities.hpp */,
+				42BF423D1D4AEDFD0025CFE8 /* WheeledRobot.cpp */,
+				42BF423E1D4AEDFD0025CFE8 /* WheeledRobot.hpp */,
+				42BF42271D4AEDB70025CFE8 /* CoreSlam */,
+			);
+			name = BreezySlam;
+			sourceTree = "<group>";
+		};
+		42BF42251D4AED810025CFE8 /* AStarPathFinding */ = {
+			isa = PBXGroup;
+			children = (
+				42BF422D1D4AEDE80025CFE8 /* MapSearchNode.cpp */,
+				42BF422E1D4AEDE80025CFE8 /* MapSearchNode.hpp */,
+				42BF422F1D4AEDE80025CFE8 /* stlastar.h */,
+				42BF42301D4AEDE80025CFE8 /* fsa.h */,
+			);
+			name = AStarPathFinding;
+			sourceTree = "<group>";
+		};
+		42BF42261D4AED980025CFE8 /* BresszyLidar */ = {
+			isa = PBXGroup;
+			children = (
+				42BF42501D4AEE260025CFE8 /* urgtest.cpp */,
+				42BF42511D4AEE260025CFE8 /* URG04LX2.cpp */,
+				42BF42521D4AEE260025CFE8 /* URG04LX2.hpp */,
+				42BF42531D4AEE260025CFE8 /* hokuyo.cpp */,
+				42BF42541D4AEE260025CFE8 /* hokuyo.hpp */,
+				42BF42551D4AEE260025CFE8 /* message_utils.hpp */,
+				42BF42561D4AEE260025CFE8 /* serial_device.cpp */,
+				42BF42571D4AEE260025CFE8 /* serial_device.hpp */,
+			);
+			name = BresszyLidar;
+			sourceTree = "<group>";
+		};
+		42BF42271D4AEDB70025CFE8 /* CoreSlam */ = {
+			isa = PBXGroup;
+			children = (
+				42BF42441D4AEE100025CFE8 /* coreslam_i686.c */,
+				42BF42451D4AEE100025CFE8 /* coreslam_internals.h */,
+				42BF42461D4AEE100025CFE8 /* coreslam.c */,
+				42BF42471D4AEE100025CFE8 /* coreslam.h */,
+				42BF42481D4AEE100025CFE8 /* random.c */,
+				42BF42491D4AEE100025CFE8 /* random.h */,
+				42BF424A1D4AEE100025CFE8 /* ziggurat.c */,
+				42BF424B1D4AEE100025CFE8 /* ziggurat.h */,
+			);
+			name = CoreSlam;
+			sourceTree = "<group>";
+		};
+		86EC64DE995683784DAE3EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732D80C7AB19B8D612FEBDC1 /* libPods-MacTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A034B7BE8D8E92665FCE90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1834E3C6DEC3AD05EC7F7FF /* Pods-MacTest.debug.xcconfig */,
+				24036AB31D31AB604E01023A /* Pods-MacTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E3EE795E1D4A456300A8A93F = {
 			isa = PBXGroup;
 			children = (
 				E3EE79691D4A456400A8A93F /* MacTest */,
 				E3EE79801D4A456400A8A93F /* MacTestTests */,
 				E3EE79681D4A456400A8A93F /* Products */,
+				92A034B7BE8D8E92665FCE90 /* Pods */,
+				86EC64DE995683784DAE3EDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +237,14 @@
 				E3EE796B1D4A456400A8A93F /* AppDelegate.m */,
 				E3EE79701D4A456400A8A93F /* ViewController.h */,
 				E3EE79711D4A456400A8A93F /* ViewController.m */,
+				42BF42201D4AEC9E0025CFE8 /* SlamDev.h */,
+				42BF42211D4AEC9E0025CFE8 /* SlamDev.mm */,
+				423E537B1D4B40E400019E7D /* LindarReader.h */,
+				423E537C1D4B40E400019E7D /* LindarReader.mm */,
+				42BF42261D4AED980025CFE8 /* BresszyLidar */,
+				42BF42251D4AED810025CFE8 /* AStarPathFinding */,
+				42BF42241D4AED730025CFE8 /* BreezySlam */,
+				42BF42231D4AED600025CFE8 /* DStarPathFinding */,
 				E3EE79731D4A456400A8A93F /* Assets.xcassets */,
 				E3EE79751D4A456400A8A93F /* Main.storyboard */,
 				E3EE79781D4A456400A8A93F /* Info.plist */,
@@ -115,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3EE79861D4A456400A8A93F /* Build configuration list for PBXNativeTarget "MacTest" */;
 			buildPhases = (
+				2AE00A3E821FB244F582E9F6 /* [CP] Check Pods Manifest.lock */,
 				E3EE79631D4A456300A8A93F /* Sources */,
 				E3EE79641D4A456300A8A93F /* Frameworks */,
 				E3EE79651D4A456300A8A93F /* Resources */,
+				2F5E11273A8C4D9D613B4F43 /* [CP] Embed Pods Frameworks */,
+				D565BD7E1B9419D2830A6212 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,14 +367,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AE00A3E821FB244F582E9F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F5E11273A8C4D9D613B4F43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacTest/Pods-MacTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D565BD7E1B9419D2830A6212 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacTest/Pods-MacTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3EE79631D4A456300A8A93F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BF42401D4AEDFD0025CFE8 /* Laser.cpp in Sources */,
+				42BF424C1D4AEE100025CFE8 /* coreslam_i686.c in Sources */,
+				42BF42431D4AEDFD0025CFE8 /* WheeledRobot.cpp in Sources */,
+				42BF42221D4AEC9E0025CFE8 /* SlamDev.mm in Sources */,
+				42BF423F1D4AEDFD0025CFE8 /* algorithms.cpp in Sources */,
+				42BF42591D4AEE260025CFE8 /* URG04LX2.cpp in Sources */,
+				42BF42581D4AEE260025CFE8 /* urgtest.cpp in Sources */,
+				42BF42311D4AEDE80025CFE8 /* MapSearchNode.cpp in Sources */,
 				E3EE79721D4A456400A8A93F /* ViewController.m in Sources */,
 				E3EE796F1D4A456400A8A93F /* main.m in Sources */,
+				42BF424F1D4AEE100025CFE8 /* ziggurat.c in Sources */,
+				42BF42411D4AEDFD0025CFE8 /* Map.cpp in Sources */,
 				E3EE796C1D4A456400A8A93F /* AppDelegate.m in Sources */,
+				42BF425B1D4AEE260025CFE8 /* serial_device.cpp in Sources */,
+				42BF425A1D4AEE260025CFE8 /* hokuyo.cpp in Sources */,
+				42BF422B1D4AEDD20025CFE8 /* Dstar.cpp in Sources */,
+				42BF424D1D4AEE100025CFE8 /* coreslam.c in Sources */,
+				423E537D1D4B40E400019E7D /* LindarReader.mm in Sources */,
+				42BF422C1D4AEDD20025CFE8 /* dstarMain.cpp in Sources */,
+				42BF424E1D4AEE100025CFE8 /* random.c in Sources */,
+				42BF42421D4AEDFD0025CFE8 /* Scan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +555,13 @@
 		};
 		E3EE79871D4A456400A8A93F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1834E3C6DEC3AD05EC7F7FF /* Pods-MacTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MacTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.guolong.MacTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -336,11 +569,13 @@
 		};
 		E3EE79881D4A456400A8A93F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24036AB31D31AB604E01023A /* Pods-MacTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MacTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.guolong.MacTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -391,6 +626,7 @@
 				E3EE79881D4A456400A8A93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EE79891D4A456400A8A93F /* Build configuration list for PBXNativeTarget "MacTestTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +635,7 @@
 				E3EE798B1D4A456400A8A93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
